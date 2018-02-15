@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 8pt;
+    line-height: 12pt;
+    background: #ffffff;
+    color: #221f1f;
+}
+
+.axis path,
+.axis line {
+    fill: aqua;
+    stroke: #693c3c;
+    shape-rendering: geometricPrecision;
+}
+
+.line {
+    fill: none;
+    stroke: rgb(61, 55, 50);
+    stroke-width: 1px;
+}
+
+.graph-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
